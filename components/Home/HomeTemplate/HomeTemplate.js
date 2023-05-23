@@ -15,8 +15,7 @@ const template=()=>{
     <div class="information-container">
         <h1>I'M FERRAN GÓMEZ</h1>
         <h2>FULL STACK DEVELOPER</h2>
-        <p>No matter the paths that have made me get here, the important thing is now and enjoy the process.
-        laskdjfoaisdnlcaskndcoasjdocjsod</p>
+        <p>No matter the paths that have made me get here, the important thing is now and enjoy the process.</p>
         <button>Contact</button>
     </div>
     

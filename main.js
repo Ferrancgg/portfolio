@@ -13,14 +13,6 @@ main$$.id="main"
 
 app.append(header$$,main$$)
 
-
-
-
-
-
-
-
-
 Header()
 printHomeTemplate()
 

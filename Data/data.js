@@ -34,19 +34,19 @@ export const proyectsData=[
         proyect:"Website",
         client:"Sevilla",
         language:"Html Css JS",
-        preview:"lkjsldf",
+        preview:"https://thriving-dieffenbachia-f44eda.netlify.app/",
         type:"frontend",
-        image:"  https://res.cloudinary.com/di49fnkc8/image/upload/v1679929495/web%20fotos/foto_bn10_h9gzw2.jpg  "
+        image:" https://res.cloudinary.com/di49fnkc8/image/upload/v1684851711/web-juegos/cartel-zmsevilla-2023-1-600_iepu58.jpg   "
     },
     {
         num:2,
-        title:"web back1",
-        proyect:"Website",
-        client:"Sevilla",
+        title:"La sonora",
+        proyect:"Website shop",
+        client:"la sonota",
         language:"Html Css JS",
-        preview:"lkjsldf",
-        type:"backend",
-        image:"  https://res.cloudinary.com/di49fnkc8/image/upload/v1679929495/web%20fotos/foto_bn10_h9gzw2.jpg  "
+        preview:"https://steady-duckanoo-b9e09e.netlify.app/",
+        type:"frontend",
+        image:"   https://res.cloudinary.com/di49fnkc8/image/upload/v1679029769/instrumentos/pexels-ylanite-koppens-697672_aikwwz.jpg "
     },
     {
         num:3,
@@ -66,7 +66,7 @@ export const proyectsData=[
         language:"Html Css JS",
         preview:"lkjsldf",
         type:"backend",
-        image:"  https://res.cloudinary.com/di49fnkc8/image/upload/v1679929495/web%20fotos/foto_bn10_h9gzw2.jpg  "
+        image:" https://res.cloudinary.com/di49fnkc8/image/upload/v1679929495/web%20fotos/foto_bn9_jbrul3.jpg  "
     },   
      {
         num:5,
@@ -86,7 +86,7 @@ export const proyectsData=[
         language:"Html Css JS",
         preview:"lkjsldf",
         type:"backend",
-        image:"  https://res.cloudinary.com/di49fnkc8/image/upload/v1679929495/web%20fotos/foto_bn10_h9gzw2.jpg  "
+        image:"  https://res.cloudinary.com/di49fnkc8/image/upload/v1679929495/web%20fotos/foto_bn9_jbrul3.jpg "
     },
     {
         num:7,
@@ -95,8 +95,8 @@ export const proyectsData=[
         client:"Sevilla",
         language:"Html Css JS",
         preview:"lkjsldf",
-        type:"frontend",
-        image:"  https://res.cloudinary.com/di49fnkc8/image/upload/v1679929495/web%20fotos/foto_bn10_h9gzw2.jpg  "
+        type:"backend",
+        image:"  https://res.cloudinary.com/di49fnkc8/image/upload/v1679929495/web%20fotos/foto_bn9_jbrul3.jpg  "
     }, {
         num:8,
         title:"Marathon Sevilla",

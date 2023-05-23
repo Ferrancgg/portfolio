@@ -1,9 +1,6 @@
 import { onAboutBttClick } from "../../About/About";
 import { onExperienceBttClick } from "../../Experience/Experience";
 import { onProyectsBttClick } from "../../Proyects/proyects";
-
-
-
 import { printHomeTemplate } from "../HomeTemplate/HomeTemplate";
 import "./Header.css";
 

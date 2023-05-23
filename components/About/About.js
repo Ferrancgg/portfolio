@@ -6,7 +6,7 @@ import { printSkills } from "./Skillcard/Skillcard"
 
 
 export const onAboutBttClick=()=>{
-    // console.log("soy del about")
+  
     const main$$=document.querySelector("main")
     const cleanMain=()=>{
         main$$.innerHTML=" "
@@ -26,20 +26,20 @@ export const onAboutBttClick=()=>{
                   <div class="block_left">
                   <ul>
                   <li>
-                    <p><span>FIRST NAME:</span> Gómez</p>
+                    <p><span>FIRST NAME:</span> Ferran</p>
                   </li>
                   <li>
                     <p><span>LAST NAME:</span> Gómez</p>
                   </li>
                   <li>
-                    <p><span>NATIONALITY:</span> Gómez</p>
+                    <p><span>NATIONALITY:</span> Spanish</p>
                   </li>
                   <li>
                     <p><span>FREELANCE:</span> available</p>
                   </li>
         
                   <li>
-                    <p><span>ADDRESS:</span> Gómez</p>
+                    <p><span>ADDRESS:</span> Sabadell (Barcelona)</p>
                   </li>
                   <li>
                     <p><span>PHONE:</span> +34 645907992</p>
