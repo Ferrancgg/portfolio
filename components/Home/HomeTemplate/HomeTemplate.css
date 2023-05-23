@@ -2,12 +2,13 @@
     /* height: 100%;
     width: 100%; */
     padding-top: 50px;
-    padding-left: 50px;
+    padding-left: 0px;
     display: flex;
     align-items: center;
     justify-content: space-around;
     flex-wrap: wrap;
     gap: 20px;
+   
 
 
 }
@@ -80,6 +81,7 @@
     .home{
         flex-direction: column;
         padding: none;
+        padding-bottom: 50px;
        
     }
     .home>.photo_personal_container{
