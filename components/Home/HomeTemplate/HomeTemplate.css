@@ -1,0 +1,101 @@
+.home{
+    /* height: 100%;
+    width: 100%; */
+    padding-top: 50px;
+    padding-left: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 20px;
+
+
+}
+
+
+
+
+.home>.photo_personal_container>.personal_photo{
+    
+    height: 560px;
+    width: 380px;
+    border-radius: 20px;
+    box-shadow: 2px 5px 15px var(--secundary)
+}
+
+
+
+.home>.photo_personal_container>.personal_photo>img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 20px;
+}
+.home>.information-container{
+    
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap:10px;
+}
+.home>.information-container>h1{
+    color: orange;
+    font-size: 60px;
+    text-align: center;
+}
+.home>.information-container>h2{
+    font-size: 30px;
+    padding-bottom: 25px;
+    text-align: center;
+}
+.home>.information-container>p{
+    font-size: 20px;
+    padding-bottom: 40px;
+    text-align: center;
+    text-align: center;
+}
+.home>.information-container>button{
+    height: 50px;
+    width: 200px;
+    border-radius: 40px;
+    font-size: 20px;
+    font-weight:900;
+    color: inherit;
+    border: 2px solid orange;
+    background-color:inherit;
+    cursor:pointer
+    
+    
+}
+.home>.information-container>button:hover{
+    scale:1.1;
+    cursor:pointer;
+    
+    background-color: var(--secundary);
+}
+
+@media screen and (max-width: 640px){
+    .home{
+        flex-direction: column;
+        padding: none;
+       
+    }
+    .home>.photo_personal_container{
+    padding:50px;
+}
+    .home>.photo_personal_container>.personal_photo{
+        width: 250px;
+        height: 250px;
+        border-radius: 50%;
+        display: flex;
+        flex-direction: column;
+        box-shadow: none;
+        
+    }
+    .home>.information-container>h1{
+   
+    font-size: 40px;}
+
+}

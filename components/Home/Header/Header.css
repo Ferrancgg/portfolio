@@ -1,0 +1,83 @@
+
+header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+  
+}
+div>.modoBtt{
+
+    height: 40px;
+    width: 40px;
+    border-radius: 100px;
+    background: inherit;
+    border: 2px solid var(--secundary);
+    
+}
+   
+   ul {
+    width: 90%;
+     display: flex;
+     align-items: center;
+justify-content: space-around;
+    
+   }
+   
+   ul> li> button {
+     color:inherit;
+     background-color:inherit;
+     font-size: 20px;
+     text-decoration: none;
+     padding: 5px 10px;
+     margin: 0px 10px;
+     position: relative;
+     transition: all .5s;
+     border-radius: 20px;
+     border:2px solid var(--secundary) ;
+   }
+   
+   ul> li>button:hover {
+     background-color:var(--secundary);
+     color:inherit;
+   }
+   
+   ul> li>button:before {
+     content: "";
+     position: absolute;
+     bottom: 12px;
+     left: 12px;
+     width: 12px;
+     height: 12px;
+     border: 3px solid var(--secundary);
+     border-width: 0 0 3px 3px;
+     opacity: 0;
+     transition: all 0.3s
+   }
+   
+   ul> li>button:hover:before {
+     opacity: 1;
+     bottom: -8px;
+     left: -8px;
+   }
+   
+   ul> li>button:after {
+     content: "";
+     position: absolute;
+     top: 12px;
+     right: 12px;
+     width: 12px;
+     height: 12px;
+     border: 3px solid var(--secundary);
+     border-width: 3px 3px 0 0;
+     opacity: 0;
+     transition: all 0.3s;
+   }
+   
+   ul> li>button:hover:after {
+     opacity: 1;
+     top: -8px;
+     right: -8px;
+   }
+
+
